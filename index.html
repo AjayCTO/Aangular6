@@ -76,7 +76,19 @@ nav
 
 
 
-  
+ document.addEventListener("deviceready", onDeviceReady, false);
+
+ function onDeviceReady() {
+
+     setTimeout(function() {
+
+         navigator.splashscreen.hide();
+
+         alert("navigatoe work");
+
+     }, 2000);
+
+ }
 
 </script>
   
