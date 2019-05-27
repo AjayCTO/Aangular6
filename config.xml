@@ -13,9 +13,9 @@
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
 
-  <!--<plugin name="cordova-plugin-splashscreen"   source="npm" spec="2.1.0" />-->
+  <plugin name="cordova-plugin-splashscreen"   source="npm" spec="2.1.0" />
 
-  <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
+  <!--<plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />-->
   <preference name="AutoHideSplashScreen" value="false"/>
   <preference name="SplashScreenDelay" value="5000"/>
 
