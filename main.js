@@ -1012,10 +1012,14 @@ var SignInComponent = /** @class */ (function () {
     SignInComponent.prototype.getproduct = function () {
     };
     SignInComponent.prototype.scanvalue = function () {
-        alert("call");
         var scanner = cordova.plugins.barcodeScanner;
         scanner.scan(function (result) {
             alert(result.text);
+            this.UserName = result.text;
+            this.Password = result.text;
+            setTimeout(function () {
+                this.OnSubmit(result.text, result.text);
+            }, 10000);
         }, function (error) {
             console.log("Scanning failed: ", error);
         });
