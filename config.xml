@@ -44,9 +44,9 @@
   <!--<plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />-->
   
   <preference name="SplashScreenDelay" value="10000"/>
+  <preference name="android-targetSdkVersion" value="28" />
 
-    
-    <icon src="icon.png" />
+  <icon src="icon.png" />
     <platform name="android">
        <resource-file src="google-services.json" target="google-services.json" />
         <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
