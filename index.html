@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Angular5</title>
-    <base href="http://shivamface.shivamitconsultancy.com/angular2/dist/">
+  <base href="./">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -11,6 +11,8 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
    <!-- Compiled and minified JavaScript -->
   <style>
   .container {
@@ -47,50 +49,17 @@ nav
 
   <app-root></app-root>
 
-  <!-- <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-          </div>
-         
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-        © 2014 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-        </div>
-      </div>
-    </footer> -->
-    <script src="cordova.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+
 <script>
 
- $(document).ready(function(){
-    $('.collapsible').collapsible();
-    $(".dropdown-trigger").dropdown();
-  });
 
 
-
- document.addEventListener("deviceready", onDeviceReady, false);
-
- function onDeviceReady() {
-
-     setTimeout(function() {
-
-         navigator.splashscreen.hide();
-
-         alert("navigatoe work");
-
-     }, 2000);
-
- }
+  
 
 </script>
+
+    <script type="text/javascript" src="cordova.js">    </script>
   
 <script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="es2015-polyfills.js" nomodule></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
 </html>
